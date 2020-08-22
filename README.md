@@ -1,5 +1,5 @@
 # convolutional_dqn_pacman
-Convolutional Neural Networks (CNN) with Deep Q-Learning (DQN) Agent for OpenAI Pacman Domain
+Convolutional Neural Networks (CNN) with Deep Q-Learning (DQN) Agent for OpenAI Pacman Domain.
 
 Implementation utilizes a target network to guide learning in the right direction and takes advantage of experience replay to prevent state transition dependencies from interfering with learning. The Markov Decision Process and overall environment are defined/provided by OpenAI. Tensorboard was integrated into this project for training/progress visualizations. States are represented by three dimensional Red-Green-Blue (RGB) arrays which make convolutional neural networks (CNN) well-suited for the task of training the agent. 
 
